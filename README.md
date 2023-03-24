@@ -3,7 +3,7 @@ Latest Guna.UI2 FrameWork cracked by Cabbo!
 
 # Crack
 
-I have updated Guna.UI2 crack: 2.0.3.5 > 2.0.4.4 [Latest as 24703/2023]. Hope you enjoy!
+I have updated Guna.UI2 crack: 2.0.3.5 > 2.0.4.4 [Latest as 24/03/2023]. Hope you enjoy!
 
 Latest Guna.UI2 FrameWork version [2.0.4.4] cracked. Working as 24/03/2023, and tested with .NET FrameWork 4.8.1.
 
