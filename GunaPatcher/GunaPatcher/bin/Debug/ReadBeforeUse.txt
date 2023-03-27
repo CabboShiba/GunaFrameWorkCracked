@@ -1,0 +1,2 @@
+Run this program in the same folder as "packages" folder. You can find it in your project directories.
+Once you have found it, you can run the program
