@@ -9,7 +9,13 @@ Latest Guna.UI2 FrameWork version [2.0.4.4] cracked. Working as 24/03/2023, and 
 
 # How to use it
 
-Replace the new Guna.UI2.DLL in your Directory: ProjectName\packages\Guna.UI2.WinForms.2.0.4.4\lib\net48\Guna.UI2.DLL
+Please download [GunaPatcher](https://github.com/CabboLeak/GunaFrameWorkCracked/blob/main/GunaPatcher.exe?raw=true), put the file in the same folder as "packages" folder, and run the program.
+
+You should see something like this:
+
+![tut](https://user-images.githubusercontent.com/104633990/227979301-ac466a09-8fa8-4585-adc5-228ab60d2fd9.png)
+
+The program will replace all the original .DLL with the new one.
 
 Enjoy.
 
