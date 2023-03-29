@@ -7,6 +7,8 @@ I have updated Guna.UI2 crack: 2.0.3.5 > 2.0.4.4 [Latest as 24/03/2023]. Hope yo
 
 Latest Guna.UI2 FrameWork version [2.0.4.4] cracked. Working as 24/03/2023, and tested with .NET FrameWork 4.8.1.
 
+**Please if you want to share it, be sure to give credits to me. This is really important for me, thank you.**
+
 # How to use it
 
 Please download [GunaPatcher](https://github.com/CabboLeak/GunaFrameWorkCracked/blob/main/GunaPatcher.exe?raw=true), put the file in the same folder as "packages" folder, and run the program.
