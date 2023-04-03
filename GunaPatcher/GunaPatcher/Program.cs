@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GunaPatcher.Properties;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -19,13 +20,6 @@ namespace GunaPatcher
             }
             string TempFile = null;
             int count = 0;
-            if (!GetGunaBytes.GetFile())
-            {
-                Log("Could not find or download Guna.UI2.dll | Please ensure you have a internet connection.\nPress enter to leave...", "ERROR", ConsoleColor.Red);
-                Console.ReadLine();
-                Process.GetCurrentProcess().Kill();
-            }
-
             Log("Scanning for \"Guna.UI2.WinForms.2.0.4.4\" Directory...", "INFO", ConsoleColor.Yellow);
             string dir = Environment.CurrentDirectory + @"\packages\Guna.UI2.WinForms.2.0.4.4\lib";
             if (!Directory.Exists(dir))
@@ -50,16 +44,16 @@ namespace GunaPatcher
                     {
                         Log($"Could not delete: {TempFile}\n{ex.Message}", "ERROR", ConsoleColor.Red);
                     }
-                    try
-                    {
-                        File.WriteAllBytes(TempFile, File.ReadAllBytes(Environment.CurrentDirectory + @"\Guna.UI2.dll"));
-                        count++;
-                        Log("Succesfully copied cracked .DLL", "SUCCESS", ConsoleColor.Green);
-                    }
-                    catch(Exception ex)
-                    {
-                        Log($"Could not overwrite cracked .DLL: {ex.Message}", "ERROR", ConsoleColor.Red);
-                    }
+                }
+                try
+                {
+                    File.WriteAllBytes(TempFile, (byte[])Properties.Resources.ResourceManager.GetObject("Guna_UI2"));
+                    count++;
+                    Log("Succesfully copied cracked .DLL in: " + TempFile, "SUCCESS", ConsoleColor.Green);
+                }
+                catch (Exception ex)
+                {
+                    Log($"Could not overwrite cracked .DLL: {ex.Message}", "ERROR", ConsoleColor.Red);
                 }
             }
             Log($"Succesfully patched {count} Guna.UI2.dll File.", "SUCCESS", ConsoleColor.Green);
